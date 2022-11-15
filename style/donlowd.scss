@@ -1,0 +1,153 @@
+
+.donlowd-container {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 497px;
+    display: flex;
+    justify-content: center;
+
+    .donlowd-subcontainer {
+        width: 1170px;
+    }
+
+    h3 {
+        height: 70px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 70px;
+        text-align: center;
+        margin-bottom: 5.29px;
+
+    }
+    
+
+    h5 {
+    @include texth5();
+    }
+
+    button {
+        width: 369px;
+        height: 77.58px;
+        background: #FF4343;
+        border: none;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 77.58px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    .donlowd-container__dots {
+        margin: 31px 0 114px 0;
+        text-align: center;
+    }
+    .table-img
+    {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .donlowd-container {
+        width: 1024px;
+        height: 392.93px;
+    
+
+    .donlowd-subcontainer {
+        width: 984px;
+    }
+
+     h3 {
+        height: 60px;
+        font-size: 24px;
+        line-height: 60px;
+        margin-bottom: 4.71px;
+
+    }
+
+    h5 {
+
+        margin-bottom: 45.71px;
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+
+     button {
+        width: 313.15px;
+        font-size: 18px;
+    }
+    .donlowd-container__dots
+    {
+        margin: 24px 0 77.51px 0;
+      
+    }
+     .table-img
+    {
+        display: block;
+       margin-left: auto;
+       margin-right: auto;
+        
+    }
+    img
+    {
+        display: none;
+
+    }
+}
+}
+@media screen and (max-width: 480px) 
+{
+    .donlowd-container {
+        width: 320px;
+        height: 316px;
+        margin: 0 auto;
+
+    .donlowd-subcontainer {
+        width: 280px;
+       
+    }
+
+     h3 {
+        height: 80px;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 3px;
+
+    }
+
+    h5 {
+
+        margin-bottom: 13.42px;
+        font-size: 13px;
+        line-height: 15px;
+
+    }
+
+     button {
+        width: 278.25px;
+        height: 80px;
+        font-size: 18px;
+    }
+    .donlowd-container__dots
+    {
+        margin: 23px 0 34.51px 0;
+      
+    }
+     .table-img
+    {
+        display: block;
+       margin-left: auto;
+       margin-right: auto;
+        width: 129.49px;
+    }
+    img
+    {
+        display: none;
+
+    }
+}
+}

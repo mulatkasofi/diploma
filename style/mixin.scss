@@ -1,0 +1,111 @@
+
+
+@mixin titleadvanteges{
+    width:$width;
+    height: 72px;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $grey;
+    margin: 29px 0 20.43px 0;
+ }
+
+@mixin texth5advanteges {
+    width: $width;
+    height: 84px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: $lightgrey;
+}
+
+@mixin texth5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50.14px;
+}
+
+@mixin title {
+    height: 21px;
+    width: 370px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+@mixin text {
+    width: 370px;
+    height: 63px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+@mixin name {
+    height: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #2D3033;
+    margin: 30px 0 5.29px 0;
+}
+
+@mixin job {
+    height: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FF4343;
+    margin-bottom: 17.86px;
+}
+
+@mixin persontext {
+    font-weight: 400;
+    font-size: 18px;
+    color: #6C7279;
+    margin-bottom: 37.86px;
+}
+@mixin texth4 {
+    display: none;
+    margin: 110px 0 20.57px 0;
+    width: 378px;
+    height: 60px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+}
+@mixin texth5project{
+    display: none;
+    font-weight: 400;
+    font-size: $fontsize;
+    line-height: 21px;
+    text-align: center;
+    color: $white;
+}
+@mixin quote {
+    margin: 116px auto 0 auto;
+    width: 470px;
+    height: 230px;
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}

@@ -1,0 +1,253 @@
+footer {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+
+    .information-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #353C65;
+        height: 257px;
+        width: 100%;
+        text-align: center;
+        
+
+     
+
+        .information-container__title {
+           @include title();
+
+        }
+
+        .information-container__center {
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        .information-container__title.first {
+
+            margin-bottom: 29px;
+
+
+        }
+
+        .information-container__title.second {
+            margin-bottom: 48.86px;
+
+
+        }
+
+        .information-container__title.third {
+            margin-bottom: 28.71px;
+
+        }
+    
+        .information-container__text {
+           @include text();
+
+        }
+section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    }
+
+    .company-container {
+        height: 90px;
+        width: 100%;
+        background: #2C3154;
+
+        h5 {
+            margin: 23.86px auto 0 auto;
+            height: 42px;
+            width: 370px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #808080;
+        }
+
+        span {
+            color: #FFFFFF;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    footer {
+        width: 1024px;
+        height: 229.33px;
+
+
+        .information-container {
+            height: 169.3px;
+
+
+            .information-container__title {
+                height: 16px;
+                width: 314px;
+                font-size: 16px;
+                line-height: 16px;
+
+            }
+
+            .information-container__center {
+                margin-left: 0;
+                margin-right: 0;
+
+            }
+
+            .information-container__title.first {
+
+                margin-bottom: 17.72px;
+
+
+            }
+
+            .information-container__title.second {
+                margin-bottom: 32.51px;
+
+
+            }
+
+            .information-container__title.third {
+                margin-bottom: 15.58px;
+
+            }
+
+            .information-container__text {
+
+                font-size: 14px;
+                width: auto;
+
+
+            }
+
+            article {
+                width: 315px;
+                height: 79.58px;
+                
+                
+
+            }
+
+            img {
+                width: 33px;
+                height: 33px;
+
+            }
+        }
+    }
+
+    .company-container {
+        height: 60.7px;
+        width: 1024px;
+
+        h5 {
+            margin: 14.28px auto 0 auto;
+            height: 32px;
+            width: 314px;
+            font-size: 14px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        width: 100%;
+        height: 540px;
+        margin: 0 auto;
+
+
+        .information-container {
+            height: 450px;
+
+
+            .information-container__title {
+                height: 16px;
+                width: 280px;
+                font-size: 16px;
+                line-height: 16px;
+
+            }
+
+
+            .information-container__title.first {
+
+                margin: 34.14px 0 34px 0;
+
+            }
+
+            .information-container__title.second {
+                margin: 69.24px 0 36.71px 0;
+
+            }
+
+            .information-container__title.third {
+
+                margin: 59.05px 0 38.71px 0;
+            }
+
+            .information-container__center {
+                margin-left: 0;
+                margin-right: 0;
+
+            }
+
+            .information-container__text {
+
+                font-size: 14px;
+                width: auto;
+                height: auto;
+
+            }
+            section
+            {
+                height: 66px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+            }
+
+            article {
+                width: 280px;
+               
+    
+            }
+
+            img {
+                width: 33px;
+                height: 33px;
+
+            }
+        }
+        .company-container {
+            height: 90px;
+            width:100%;
+    
+            h5 {
+                margin: 29.86px auto 0 auto;
+                height: 32px;
+                width: 280px;
+                font-size: 14px;
+                line-height: 16px;
+            }
+    
+        }
+    }
+
+    
+}

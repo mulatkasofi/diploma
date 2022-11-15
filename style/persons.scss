@@ -1,0 +1,167 @@
+
+
+.persons-container {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 847px;
+    display: flex;
+    justify-content: center;
+
+    .persons-subcontainer {
+        display: flex;
+        align-items: center;
+    }
+
+    section {
+        width: 270px;
+        height: 619px;
+
+
+    }
+
+    .persons-container__name {
+        @include name();
+    }
+
+
+    .persons-container__job {
+        @include job();
+    }
+
+
+
+    .persons-container__text {
+        @include persontext();
+    }
+
+    .persons-container__center-img {
+        margin: 0 25px 0 25px;
+    }
+
+    .persons-container__center-img.noleftmargin {
+        margin-left: 0;
+    }
+
+    img[alt='mobile'] {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .persons-container {
+        width: 320px;
+        height: 2328px;
+        margin: 0 auto;
+
+
+        section {
+            height: 521px;
+            width: 280px;
+            margin: 55px auto 0 auto;
+
+        }
+
+        .persons-container__center-img {
+            margin: 0;
+        }
+
+        .persons-container__name {
+            height: 25.25px;
+            font-size: 18px;
+            margin: 25.25px 0 4.61px 0;
+        }
+
+        .persons-container__job {
+            height: 16px;
+            font-size: 14px;
+            margin-bottom: 38.49px;
+        }
+
+        .persons-container__text {
+            font-size: 14px;
+            margin-bottom: 55.15px;
+        }
+
+        img[alt='portrait'] {
+            display: none;
+
+        }
+
+        img[alt='mobile'] {
+            display: block;
+        }
+
+        img[alt='icon'] {
+            height: 39.61px;
+            width: 39.61px;
+
+
+
+        }
+
+        .persons-container__center-img {
+            margin: 49.39px 0 0 0;
+        }
+
+        .persons-subcontainer {
+            width: 280px;
+            display: block;
+        }
+
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .persons-container {
+        width: 1024px;
+        height: 677.22px;
+
+
+        section {
+            height: 520.60px;
+            width: 227.07px;
+
+        }
+
+        .persons-container__center-img {
+            margin: 0 20px 0 20px;
+        }
+
+        .persons-container__name {
+            height: 25.23px;
+            font-size: 18px;
+            margin: 25.23px 0 4.6px 0;
+        }
+
+        .persons-container__job {
+            height: 16px;
+            font-size: 14px;
+            margin-bottom: 22.45px;
+        }
+
+        .persons-container__text {
+            font-size: 14px;
+            margin-bottom: 39.2px;
+        }
+
+        img[alt='portrait'] {
+            height: 227.07px;
+            width: 227.07px;
+
+        }
+
+        img[alt='mobile'] {
+            display: none;
+        }
+
+        img[alt='icon'] {
+            height: 32.7px;
+            width: 32.7px;
+
+
+
+        }
+
+    }
+}
