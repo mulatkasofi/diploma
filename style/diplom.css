@@ -789,6 +789,8 @@ header img[alt=logo] {
     font-size: 18px;
     line-height: 21px;
     margin-bottom: 3px;
+    display: flex;
+    align-items: center;
   }
   .donlowd-container h5 {
     margin-bottom: 13.42px;
